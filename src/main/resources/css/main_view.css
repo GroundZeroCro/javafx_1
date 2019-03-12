@@ -1,0 +1,94 @@
+* {
+    -fx-main-dark_color: #262525;
+    -fx-main-dark_color_lighter: #2c2b2b;
+    -fx-main-dark_color_1: #403f3f;
+    -fx-window_color: -fx-dark_white;
+    -fx-green: #187a10;
+    -fx-white: #ffffff;
+    -fx-shadow-white: #d1d1d1;
+    -fx-dark_white: #969696;
+    -fx-tab-background: #4f4f4f;
+    -fx-orange: #FF9800;
+}
+
+
+.tab {
+    -fx-font-weight: bold;
+    -fx-background-radius: 10 10 0 0;
+    -fx-background-color: derive(-fx-main-dark_color, 0%);
+    -fx-background-insets: 0.3;
+    -fx-focus-color: transparent;
+    -fx-border-width: 1px;
+}
+
+.tab .text {
+    -fx-text-fill: white;
+}
+
+.tab:hover {
+    -fx-background-color: -fx-main-dark_color_lighter;
+}
+
+.tab-pane *.tab-header-background {
+    -fx-background-color: -fx-window_color;
+}
+
+.tab:selected {
+    -fx-background-color: -fx-orange;
+}
+
+.tab-label {
+    -fx-text-fill: -fx-white;
+}
+
+.root {
+    -fx-font-size: 14px;
+    -fx-background-color: -fx-white;
+}
+
+
+Label {
+    -fx-text-fill: -fx-white;
+    -fx-font-size: 15px;
+    -fx-font-family: Verdana, Arial, sans-serif;
+}
+
+.list-cell:even {
+    -fx-background-color: -fx-white;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: -fx-white;
+    -fx-text-fill: -fx-white;
+}
+
+
+.list-view .list-cell:even {
+    -fx-background-color: -fx-main-dark_color;
+    -fx-text-fill: -fx-white;
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: -fx-main-dark_color_lighter;
+    -fx-text-fill: -fx-white;
+}
+
+AnchorPane {
+    -fx-background-color: -fx-main-dark_color;
+}
+
+TabPane ListView {
+    -fx-background-color: -fx-main-dark_color;
+}
+
+.toolbarTip {
+    -fx-background-color: -fx-main-dark_color_1;
+}
+
+HBox {
+    -fx-background-color: -fx-window_color;
+}
+
+.mainWindowFrame {
+    -fx-background-color: -fx-main-dark_color_lighter;
+}

@@ -1,0 +1,23 @@
+* {
+    -fx-main-dark_color: #262525;
+    -fx-main-dark_color_lighter: #2c2b2b;
+    -fx-orange: #FF9800;
+    -fx-alpha-grey: #656565;
+}
+
+.root {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+}
+
+Label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-family: Verdana, Arial, sans-serif;
+}
+
+AnchorPane {
+    -fx-background-color: transparent;
+    -fx-border-color: -fx-alpha-grey;
+    -fx-border-width: 3px;
+}

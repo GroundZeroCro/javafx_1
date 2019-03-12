@@ -1,0 +1,28 @@
+* {
+    -fx-main-dark_color: #262525;
+    -fx-main-dark_color_lighter: #2c2b2b;
+    -fx-orange: #FF9800;
+    -fx-dark_white: #969696;
+}
+
+Label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+.root {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+}
+
+.highlighted {
+    -fx-text-fill: -fx-orange;
+}
+
+.bolded {
+    -fx-font-weight: bold;
+    -fx-font-size: 130%;
+}
+.minimized {
+    -fx-font-size: 80%;
+}
